@@ -1,0 +1,24 @@
+.intro__list-item {
+    display: flex;
+}
+
+.intro__list-item dt {
+    margin: 0;
+    margin-right: 4px;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.intro__list-item dd {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
