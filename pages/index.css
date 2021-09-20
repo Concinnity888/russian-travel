@@ -1,9 +1,11 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
@@ -21,9 +23,11 @@
 @import url(../blocks/intro/__title/intro__title.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
@@ -34,38 +38,11 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__background/cover__background.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-@font-face {
-    font-family: "Inter";
-    src: url("../fonts/Inter-Regular.woff2") format("woff2"),
-      url("../fonts/Inter-Regular.woff") format("woff");
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "Inter";
-    src: url("../fonts/Inter-Bold.woff2") format("woff2"),
-      url("../fonts/Inter-Bold.woff") format("woff");
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "Inter";
-    src: url("../fonts/Inter-Black.woff2") format("woff2"),
-      url("../fonts/Inter-Black.woff") format("woff");
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-  }

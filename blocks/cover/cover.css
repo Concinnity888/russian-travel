@@ -6,8 +6,11 @@
     align-items: center;
     min-height: 740px;
     margin-bottom: 68px;
-    padding: 0 48px;
-    box-sizing: border-box;
+    padding: 0;
+    background-image: url(../../images/cover-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @media screen and (max-width: 1279px) {
